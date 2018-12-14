@@ -1,0 +1,255 @@
+body {
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: white;	
+}
+/*----------Edicao-----------*/
+.rotate{
+	max-width: 500px;
+	padding: 0px 0px 100px 0px;
+	margin:auto;
+}
+.titleContainer{
+	max-width:250px;
+	max-height:800px;
+	width:auto; 
+	height:auto;
+	margin: 100px auto auto auto;	
+}
+.container{
+	width: 300px;
+	height: auto;
+	/*border: 1px solid white;	Identificador de borda*/
+}
+.container2{
+	width: 600px;
+	height: auto;
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+	/*border: 1px solid white; Identificador de borda */
+	margin: auto;
+}
+/*--------------------------------*/
+.quadrado1 {
+	height: 300px;
+	width: 300px;
+	background-color: green;
+	border-radius: 5%; 
+	left: 20px;
+	top:20px;
+	position: fixed;
+	animation: verde 4s linear infinite;
+	z-index: -2;
+}
+@keyframes verde {
+	0%
+	{
+		background-color: green; 
+	}
+	25%
+	{
+		background-color: blue;
+	}
+	50%
+	{
+		background-color: red; 
+	}
+	75%
+	{
+		background-color: yellow;
+	}
+	100%
+	{
+		background-color: green;
+	}
+}
+.quadrado3{
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	border-radius: 5%; 
+	left: 360px;
+	top: 20px;
+	position: fixed;
+	z-index: -2;
+	animation: verde 4s linear infinite;
+}	
+.quadrado5 {
+	height: 300px;
+	width: 300px;
+	background-color: green;
+	border-radius: 5%; 
+	right: 20px;
+	top:20px;
+	position: fixed;
+	animation: verde 4s linear infinite;
+	z-index: -2;
+}
+.quadrado7 { 
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	border-radius: 5%; 
+	right: 360px;
+	top: 20px;
+	position: fixed;
+	z-index: -2;
+	animation: verde 4s linear infinite;
+}
+.quadrado2 {
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	border-radius: 5%; 
+	right: 20px;
+	top: 350px;
+	position: fixed;
+	z-index: -2;
+	animation: verde 4s linear infinite;
+}
+.quadrado4 {
+	height: 300px;
+	width: 300px;
+	background-color: green;
+	border-radius: 5%; 
+	right: 360px;
+	top: 350px;
+	position: fixed;
+	z-index: -2;
+	animation: verde 4s linear infinite;
+}
+.quadrado6 {
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	border-radius: 5%; 
+	left: 20px;
+	top: 350px;
+	position: fixed;
+	z-index: -2;
+	animation: verde 4s linear infinite;
+}
+.quadrado8 {
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	border-radius: 5%; 
+	left: 360px;
+	top: 350px;
+	position: fixed;
+	z-index: -2;
+	animation: verde 4s linear infinite;
+}				
+.letra{
+	text-align: center;
+	margin-top: 100px;
+	font-family: Impact;
+	font-size: 80px;
+	transition: 0.5s;
+	display: block;	
+}
+.letra:hover {
+	transform: translate(10px, -10px) rotate(4deg);
+
+}
+.jogar{
+	text-align: center;
+	margin-top: 50px;
+	font-family: Impact;
+}
+.jogar:hover {
+	color: red;
+	transition: 1s;
+	transform: translate(40px) rotate(4deg);
+}
+.comojogar{
+	text-align: center;
+	margin-top: 50px;
+	font-family: Impact;
+}
+.comojogar:hover {
+	color: blue;
+	transition: 1s;
+	transform: translate(-40px) rotate(-4deg);
+}
+.sobre{
+	text-align: center;
+	margin-top: 50px;
+	font-family: Impact;
+}
+.sobre:hover {
+	color: green;
+	transition: 1s;
+	transform: translate(40px) rotate(4deg);
+}
+/*.div {
+	height: 50px;
+	width: 50px;
+	border-radius: 10%;
+	background-color: red;
+	position: relative;
+	animation: quadrado 5s linear infinite;
+	z-index: -1;
+	position: absolute;
+}
+@keyframes quadrado {
+	0%
+	{
+		background-color: red; left: 800px; top: 130px;
+	}
+	25%
+	{
+		background-color: blue; left: 818px; top: 130px;
+	}
+	50%
+	{
+		background-color: green; left: 818px; top: 520px;
+	}
+	75%
+	{
+		background-color: yellow; left: 500px; top: 520px;
+	}
+	100%
+	{
+		background-color: red; left: 800px; top: 130px;
+	}
+}
+.div2 {
+	height: 50px;
+	width: 50px;
+	border-radius: 10%;
+	background-color: red;
+	position: relative;
+	position: absolute;
+	animation: quadrados 5s linear infinite;
+	z-index: -1;
+}
+@keyframes quadrados {
+	0%
+	{
+		background-color: red; left: 818px; top: 570px;
+	}
+	25%
+	{
+		background-color: blue; left: 500px; top: 570px;
+	}
+	50%
+	{
+		background-color: green; left: 500px; top: 110px;
+	}
+	75%
+	{
+		background-color: yellow; left: 818px; top: 110px;
+	}
+	100%
+	{
+		background-color: red; left: 818px; top: 570px;
+	}
+}*/
+@media only screen and (max-width:)
