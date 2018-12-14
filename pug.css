@@ -160,7 +160,8 @@ a{
 }
 .jogar{
 	text-align: center;
-	margin-top: 50px;
+    margin-top: 50px;
+    font-size: 40px;
 	font-family: Impact;
 }
 .jogar:hover {
@@ -170,7 +171,8 @@ a{
 }
 .comojogar{
 	text-align: center;
-	margin-top: 50px;
+    margin-top: 50px;
+    font-size: 40px;
 	font-family: Impact;
 }
 .comojogar:hover {
@@ -180,7 +182,8 @@ a{
 }
 .sobre{
 	text-align: center;
-	margin-top: 50px;
+    margin-top: 50px;
+    font-size: 40px;
 	font-family: Impact;
 }
 .sobre:hover {
